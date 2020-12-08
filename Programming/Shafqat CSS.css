@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:  #c8bbb9;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Menu */
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #bc2e0f;;
+}
+
+.menu a {
+    transition: 1s;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+/* Hover On Anchors */
+
+.menu a:hover {
+    color:   #671605;
+}
+
+.menu #logo {
+
+    position: absolute;
+    left: 0; 
+}
+
+.menu .fiver-contact {
+    transform: translateX(18.7rem);
+    font-size: 20px;
+}
+
+.fiver-contact .fa-user {
+    transform: translateX(-2rem);
+}
+
+/* Main Section Starting From Here */
+
+/*Info Section Starting From Here */
+
+
+.info-section {
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.infos {
+    width: 780px;
+    margin-top: 100px;
+}
+
+.infos h1 {
+    position: relative;
+    top: 0;
+      transform: translateY(-90px);
+     /* transform: translateX(300px); */
+}
+
+.infos p {
+    transform: translateY(-4rem);
+    margin-left: 160px;
+    word-break: break-all;
+}
+
+/* Image */
+
+.my-image {
+    margin-right: 80px;
+    position: absolute;
+    right: 0;
+}
+.my-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Skills Section */
+
+.skills-section {
+    margin-left: 5%;
+}
+
+.skills-heading h4 {
+    letter-spacing: 0.1rem;
+    color: white;
+    transform: translateX(-51px);
+    text-align: center;
+    background:  #b7210a; 
+    height: 30px;
+    width: 120px;
+    border-radius: 8%;
+}
+
+
+/* Start Line */
+
+.skills-bars {
+    margin-top: 90px;
+}
+
+.start-line {
+    transform: translateY(12px);
+    width: 46.8%;
+    height: 3px;
+    background: #DDDDDD;
+    position: absolute;
+    right: 0;
+}
+
+#line-2 {
+    transform: translateY(12px);
+    left: 0;
+    display: flex;
+    float: left;
+    width: 43.8%;
+    height: 3px;
+    background: #DDDDDD;
+    position: absolute;
+}
+/* HTML */
+
+.bar {
+    width: 90%;
+    height: 50px;
+    background: #DDDDDD;
+}
+
+.html-bar {
+    display: flex;
+    height: 50px;
+    width: 90%;
+    background: #56B051;
+}
+
+.html-bar h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 90%;
+    color: white;
+}
+
+
+/* Bootstrap */
+
+.bootstrap {
+    margin-top: 37px;
+}
+
+.boot-bar {
+    display: flex;
+    height: 50px;
+    width: 90%;
+    background: #533B78;
+}
+
+.boot-bar h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85%;
+    color: white;
+}
+
+
+/* CSS */
+
+.css {
+    margin-top: 37px;
+}
+
+.css-bar {
+    display: flex;
+    height: 50px;
+    width: 85%;
+    background: #2096F3;
+}
+
+
+.css-bar h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 85%;
+    color: white;
+}
+
+
+/* JavaScript */
+
+.javascript {
+    margin-top: 37px;
+}
+
+.js-bar {
+    display: flex;
+    height: 50px;
+    width: 80%;
+    background: #EFD821;
+}
+
+.js-bar h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75%;
+    color: white;
+}
+
+
+/* Jquery */
+
+.jquery {
+    margin-top: 37px;
+}
+
+.jq-bar {
+    display: flex;
+    height: 50px;
+    width: 65%;
+    background: #0C63A6;
+}
+
+.jq-bar h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 65%;
+    color: white;
+}
+
+
+/* Services */
+
+.services-section {
+    margin-top: 90px;
+}
+
+.services-start-line h4 {
+    color: white;
+    height: 30px;
+    border-radius: 8%;
+    width: 130px;
+    letter-spacing: 0.1rem;
+    background: #b7210a;
+    text-align: center;
+}
+
+
+.services-start-line .left {
+    transform: translateY(-1.6rem);
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 44.9%;
+    background: #DDDDDD;
+}
+
+.services-start-line .right {
+    transform: translateY(-1.6rem);
+    position: absolute;
+    right: 0;
+    height: 3px;
+    width: 44.9%;
+    background: #DDDDDD;
+}
+
+
+/* Services Content Starting From Here */
+
+.services-content {
+    margin-top: 40px;
+    margin-left: 65px;
+}
+
+.first-card {
+    transition: ease-out 1s;
+    box-shadow: 0px 5px 40px 0px;
+    display: flex;
+    justify-content: center;
+    background: #e9f0e1;
+    width: 250px;
+    height: 330px;
+}
+
+.first-card:hover {
+    background:  #525252;
+    color: white;
+    box-shadow: -7px 10px 14px 0px rgba(0,0,0,0.44),
+    7px -10px 40px 0px rgba(0,0,0,0.44);
+    transition: 1s;
+    transform: translateY(1rem);
+    
+}
+
+.first-card h4 {
+    transform: translateX(2.5rem);
+    margin-top: 150px;
+    font-weight: 900;
+}
+
+.tv {
+    font-size: 30px;
+    transform: translateX(-3.8rem);
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 85px;
+    height: 85px;
+    background:   #599a05;
+    border-radius: 50%;
+}
+
+.first-card p {
+    position: absolute;
+    width: 230px;
+    text-align: center;
+    transform: translateY(12rem);
+}
+
+.first-card .btn-read-more {
+    transform: translateY(17rem);
+    position: absolute;
+    text-align: center;
+    background:  #B72E1B;
+    width: 105px;
+    color: white;
+    padding: 5px;
+    transition: 1s;
+}
+
+.first-card .btn-read-more:hover {
+    color: white;
+    background:   #780009;
+}
+
+/*Experience Section*/
+
+.experience-section {
+
+
+    /* position: relative; */
+    height: 630px;
+}
+
+.experience-content {
+    transform: translateY(32rem);
+    display: flex;
+}
+
+.experience-start-line {
+    transform: translateY(27rem);
+}
+
+.experience .experience-start-line h4 {
+    color: white;
+    height: 30px;
+    border-radius: 8%;
+    width: 140px;
+    transform: translateX(14.3rem);
+    letter-spacing: 0.1rem;
+    background: #b7210a;
+    text-align: center;
+}
+
+
+
+.experience-start-line .left {
+    transform: translateY(-1.6rem);
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 44.5%;
+    background: #DDDDDD;
+}
+
+.experience-start-line .right {
+    transform: translateY(-1.6rem);
+    position: absolute;
+    right: 0;
+    height: 3px;
+    width: 44.5%;
+    background: #DDDDDD;
+}
+
+.experience-para {
+    min-width: 700px;
+    position: absolute;
+    left: 0;
+    
+    
+    
+}
